@@ -6,36 +6,36 @@
 
 // ### Faites parler la vieille dame, puis lancer la méthode adoucir du vieil homme et relancer la méthode parler de la vieille dame.
 
-let vieille_dame = {
-    age: 100,
-    nom: {
-        nom:"Tirisca",
-        prenom:"Nicebéré"
-    },
-    moral:"mal",
-    objet:"AK-47 gold Edition Since 1999 Albania",
-    parler(){
-        switch (vieille_dame.moral) {
-            case "mal":
-                alert(`${this.nom.nom, this.nom.prenom} dit : Vous me dérangez \naction : lui tire dessus avec son ${vieille_dame.objet}`)
-                break;
-            case "bien":
-                alert(`${this.nom.nom, this.nom.prenom} dit : Bonjour ${vieil_homme.nom}`)
-                break;
-            default:
-                console.log("Fuyez pauvres fous")
-                break;
-        }
-    }
-}
+// let vieille_dame = {
+//     age: 100,
+//     nom: {
+//         nom:"Tirisca",
+//         prenom:"Nicebéré"
+//     },
+//     moral:"mal",
+//     objet:"AK-47 gold Edition Since 1999 Albania",
+//     parler(){
+//         switch (vieille_dame.moral) {
+//             case "mal":
+//                 alert(`${this.nom.nom, this.nom.prenom} dit : Vous me dérangez \naction : lui tire dessus avec son ${vieille_dame.objet}`)
+//                 break;
+//             case "bien":
+//                 alert(`${this.nom.nom, this.nom.prenom} dit : Bonjour ${vieil_homme.nom}`)
+//                 break;
+//             default:
+//                 console.log("Fuyez pauvres fous")
+//                 break;
+//         }
+//     }
+// }
 
-let vieil_homme = {
-    nom:"Kimotsuchi",
-    adoucir(){
-        vieille_dame.moral = "bien"
-    }
-}
+// let vieil_homme = {
+//     nom:"Kimotsuchi",
+//     adoucir(){
+//         vieille_dame.moral = "bien"
+//     }
+// }
 
-vieille_dame.parler()
-vieil_homme.adoucir()
-vieille_dame.parler()
+// vieille_dame.parler()
+// vieil_homme.adoucir()
+// vieille_dame.parler()
